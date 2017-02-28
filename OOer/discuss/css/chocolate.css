@@ -1,0 +1,53 @@
+*{margin:0px;padding:0px;font-family:"Tahoma";
+		}
+.choc_main{
+	width:400px;min-height:372px;
+	margin-left:100px;margin-top:40px;
+	background-color:#ebebeb;
+	box-shadow:0px 0px 45px #9ce2c4;
+	float:left;
+	
+}
+.choc_main_line{
+	width:400px;min-height:60px;
+	border-bottom:dotted;border-width:1px;
+	border-color:#9affd3;
+}
+.choc_main_line_left{
+	width:100px;height:60px;
+	float:left;
+	text-align:center;
+	font-size:12px;
+	line-height:60px;
+}
+.choc_main_line_right{
+	width:300px;height:60px;
+	float:left;
+}
+.choc_intext{
+	width:260px;height:40px;
+	margin-top:10px;
+	margin-left:20px;
+
+}
+.choc_article
+{
+	width:600px;height:372px;
+	float:left;
+	margin-top:40px;
+	margin-left:40px;
+	box-shadow:0px 0px 45px #9ce2c4;
+}
+.choc_sm_banner{
+	width:400px;height:250px;
+}
+.choc_BO
+{
+	width:100px;height:40px;
+	margin-top:10px;margin-left:150px;
+}
+.iconn{
+	width:60px;height:60px;
+	float:left;
+	margin-left:20px;margin-top:40px;
+}

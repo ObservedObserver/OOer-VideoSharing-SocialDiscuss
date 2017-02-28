@@ -1,0 +1,106 @@
+/*全局css
+*{margin:0px;padding:0px;font-family:"Tahoma";}
+.main{width:1020px;height:1360px;background-color:rgba(213,213,213,0.8);margin:auto;}
+ .banner{width:1000px;height:300px;background-color:#ffd3e2;margin:auto}
+        .page_list{width:1000px;height:20px;margin:auto;margin-top:2px}
+        .page_name{width:198px;height:20px;float:left;background-color:#a6dccf;text-align:center;margin-left:2px}
+        .page_name a{color:#a925d5;text-decoration:none}
+        .page_name a:hover{font-weight:bold}
+*/
+.discuss{/*论坛列表主块*/
+	width:1000px;min-height:160px;
+	margin-top:10px;margin-left:10px;
+	background-color:rgba(0,0,0,0.7);
+	/*background-image:url("/OOer/image/blood.jpg");*/
+	
+	color:#f3f0f0;
+}
+.discuss a{
+color:#f3f0f0;
+}
+.discuss_line
+{/*列表子块，存放单个帖子的展示信息*/
+    width:980px;height:40px;
+    margin:auto;
+    line-height:40px;
+    border-bottom-style:dotted;border-color:#ffc5d1;border-width:1px;
+}
+.discuss_line_A
+{
+	min-width:280px;height:40px;
+	line-height:40px;
+	float:left;
+	color:#f3f0f0;
+}
+.discuss_line_B
+{
+	width:auto;height:40px;
+	line-height:40px;
+	text-align:right;font-size:10px;color:#cbcbcb;
+	float:right;
+}
+.dira{/*页码目录行*/
+	width:1000px;height:20px;
+	/*background-color:#efefef;*/
+	margin:auto;margin-top:6px;
+	background-color:rgba(0,0,0,0.7);
+	color:#f3f0f0;
+}
+.dira a{color:#f3f0f0;}
+.dira_parts{
+	width:250px;height:20px;
+	float:left;
+}
+/*article.php*/
+.article_title{
+   width:1000px;height:80px;font-size:40px;line-height:80px;
+   border-bottom-style:dotted;border-color:#ffc5d1;border-width:1px;
+}
+.article_info{width:1000px;height:40px;border-bottom-style:dotted;border-color:#ffc5d1;border-width:1px;}
+.article_info_parts{width:250px;height:40px;font-size:12px;line-height:40px;float:left}
+.article_text{width:1000px;min-height:100px;background-color:rgba(0,0,0,0.8);margin:auto;}
+.comments{width:1000px;overflow:hidden;color:#f3f0f0;
+ background-image:url("/OOer/image/blood.jpg");
+/*background-color:#efefef;*/
+margin-top:10px;margin-left:10px;}
+
+.comments_OP{width:1000px;height:40px;line-height:40px;font-size:20px;}
+.comments_title{width:400px;height:40px;line-height:40px;font-size:20px;float:left}
+.comments_dir{width:200px;height:40px;line-height:40px;font-size:14px;float:left}
+.comments_parts{width:980px;min-height:100px;background-color:rgba(0,0,0,0.8);
+		margin-top:2px;margin-left:10px;color:#f3f0f0;
+		float:left;}
+.comments a{color:#d36f6f;}
+.comments_parts_img{width:100px;height:100px;float:left;}
+.comments_parts_content{width:880px;overflow:hidden;}
+.cid_info{
+	width:880px;height:20px;
+	border-bottom-style:dotted;border-color:#73bb9a;border-width:1px;
+	}
+.cid_content{width:880px;min-height:80px;}
+.personal_img{width:100px;height:100px}
+
+.fixed_iconn{
+	width:60px;height:60px;
+	position:fixed;z-index:999;left:0px;top:0px;
+}
+/*comment.php*/
+.text_edit{width:960px;height:480px;margin-left:10px;margin-top:10px}
+/*edit_article.php*/
+.article_edit
+{
+	width:960px;height:600px;
+	margin-top:20px;margin-left:20px;
+}
+.article_button
+{
+	width:60px;height:40px;
+	margin-top:20px;margin-left:20px;
+}
+/*float_main*/
+.float_main
+{
+	width:1020px;min-height:400px;
+  background-color:rgba(114,114,114,0.8);
+  margin:auto;
+}
